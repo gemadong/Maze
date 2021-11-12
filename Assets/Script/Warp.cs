@@ -16,7 +16,7 @@ public class Warp : MonoBehaviour
     {
         if (_col.CompareTag("Player"))
         {
-            Destroy(player);
+            //Destroy(player);
             SceneManager.LoadScene(3);
         }
     }
